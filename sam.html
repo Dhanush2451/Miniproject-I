@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collapsible Sections</title>
+<style>
+/* Style the button that toggles the visibility of the content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+
+/* Style the content inside the collapsible */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+/* Change the style of the button when active (content is visible) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+</style>
+</head>
+<body>
+
+<button class="collapsible">Section 1</button>
+<div class="content">
+  <p>Content of Section 1 goes here...</p>
+</div>
+
+<button class="collapsible">Section 2</button>
+<div class="content">
+  <p>Content of Section 2 goes here...</p>
+</div>
+
+<button class="collapsible">Section 3</button>
+<div class="content">
+  <p>Content of Section 3 goes here...</p>
+</div>
+
+<script>
+// Get all elements with class "collapsible"
+var coll = document.getElementsByClassName("collapsible");
+
+// Loop through each collapsible element
+for (var i = 0; i < coll.length; i++) {
+  // Add click event listener to toggle visibility of content
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

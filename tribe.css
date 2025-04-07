@@ -1,0 +1,114 @@
+*{
+    font-family: 'Times New Roman';
+
+
+}
+div{
+    border: 2px solid whitesmoke;
+    display: flexbox;
+    font-size: 20px ;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-image:linear-gradient(to left,whitesmoke,white);}
+ table{
+        align-self: right;
+        border-left: 1px solid red;
+        margin-right: 0;
+        height: 1000px;
+        
+    }
+    tr{
+        width:120px;
+        border: none;
+        text-decoration: none;
+    }
+    .matter{
+        margin-right: 250px;
+        padding-right: 20px;
+        align-content: left;
+        border-right: 1px solid black;
+        font-weight: none;
+    
+    }
+
+.head{
+    background-image: url(https://www.shutterstock.com/image-vector/dark-blue-golden-abstract-tech-260nw-2011506185.jpg);
+    text-align: center;
+    font-size:40px ;
+    color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+.para{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: justify;
+}
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+.image{
+    /* border: none; */
+    position: relative;
+    text-align: center;
+    right: 10px;
+    top: auto;
+}
+.images{
+    /* border: none; */
+    display:inline-block;
+}
+#festival1{
+    display: inline;
+    margin:50px;
+    padding:25px;
+    /* border: none; */
+    text-align: center;
+}
+.space{
+    padding-right: 25px;
+}
+footer{
+    background-color: rgb(82, 168, 248);
+    margin-bottom: 0;
+}
+/* Style the button that toggles the visibility of the content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+
+/* Style the content inside the collapsible */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+/* Change the style of the button when active (content is visible) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}

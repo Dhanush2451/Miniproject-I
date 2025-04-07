@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIBES OF SIKKIM</title>
+    <link rel="stylesheet" href="tribe.css">
+    <style>
+        /* Style the button that toggles the visibility of the content */
+        .collapsible {
+          background-color: #eee;
+          color: #444;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 18px;
+        }
+        
+        /* Style the content inside the collapsible */
+        .content {
+          padding: 0 18px;
+          display: none;
+          overflow: hidden;
+          background-color: #f9f9f9;
+        }
+        
+        /* Change the style of the button when active (content is visible) */
+        .active, .collapsible:hover {
+          background-color: #ccc;
+        }
+        </style>
+        </head>
+</head>
+<style>
+     body {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: #2c3e50;
+        padding: 10px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        transition: color 0.3s; 
+    }
+
+    nav a:hover {
+        color: black; 
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+    }
+
+    label {
+        margin-right: 10px;
+    }
+
+    input { padding: 5px;
+        border: 1px solid #ccc;
+        transition: border-color 0.3s; 
+    }
+
+    input:hover {
+        border-color: #4CAF50; 
+    }
+
+    button {
+        padding: 5px 10px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s; 
+    }
+
+    button:hover {
+        background-color: #2c3e50; 
+    }
+</style>
+<body>
+    <nav>
+        <div>
+            <a href="homepage.html" class="nav-link">Home</a>
+            <a href="index.html" class="nav-link">Map</a>
+            <a href="about.html" class="nav-link">About</a>  
+            <a href="bot1.html" >
+                <button id="ask-me-button" onclick="redirectToAskMePage()">Ask Me</button>
+              </a>
+        </div>
+        <form onsubmit="searchFunction(); return false;" action="#" method="get" id="searchform">
+            <input type="text" id="search" name="q" placeholder="Enter your search query">
+            <button type="submit">🔍</button>
+        </form>
+    </nav>
+    <body><button id="prevButton" class="round-button">&#8592;</button>
+        <script>
+            document.getElementById('prevButton').addEventListener('click', function() {
+                window.location.href = 'sikkim.html';
+            });
+        </script>
+        </body>
+    <div class="head"><h1  style="font-size: 40px;">The Bhutia -a closer look </h1></div>
+            
+            <table border="1" ALIGN="rIght">
+                <tr>
+                    <th>States</th>
+                    <th>Tribes</th>
+                </tr>
+                <tr>
+                    <td><a href="andhrapradesh.html"> Andhra pradesh</a></td>
+                    <td><a href="andhratribes.html"> Yerukulas</a></td>
+        
+                </tr>
+                <tr>
+                    <td><a href="arunachalpradesh.html">Arunachalpradesh</a>    </td>
+                    <td><a href="arunachalpradeshtribes.html">ADI</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="assam.html">Assam</a> </td>
+                    <td><a href="sikkimtribe.html">Bhutia</a></td>
+                </tr>
+                <tr>
+                    <td><a href="bihar.html">Bihar</a> </td>
+                    <td><a href="bihartribe.html">Kharia</a> </td>
+        
+                </tr>
+                <tr>
+                    <td><a href="chattisgarh.html">Chattisgarh</a> </td>
+                    <td><a href="chattisgarhtribes.html">Pahari korwa</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="goa.html">Goa</a> </td>
+                    <td><a href="goatribe.html">Warli</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="gujarat.html">Gujarat</a></td>
+                    <td><a href="gujarattribe.html">Dhodia</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="haryana.html">Haryana</a> </td>
+                    <td><a href="haryanatribe.html">Gujjar</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="himachal.html">Himachal Pradesh</a> </td>
+                    <td><a href="rajasthantribes.html">Bhil</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="jammu.html">Jammu and Kashmir</a> </td>
+                    <td><a href="jammutribe.html">Bakarwal</a> </td>
+                </tr>
+                 <tr>
+                    <td><a href="jharkhand.html">Jharkhand</a> </td>
+                    <td><a href="jharkhandtribe.html">Santhal</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="karnataka.html">Karnataka</a> </td>
+                    <td><a href="karnatakatribes.html">Kabu Kuruba</a>  </td>
+                </tr>
+                <tr>
+                    <td><a href="kerala.html">Kerala</a> </td>
+                    <td><a  href="keralatribes.html">PANIYAN</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="madyapradesh.html">Madhya Pradesh</a> </td>
+                    <td><a href="madyapradeshtribe.html">Bhaigas</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="maharashtra.html">Mahrashtra</a></td>
+                    <td><a href="maharashtratribe.html">Warlis</a></td>
+                </tr>
+                <tr>
+                    <td><a href="manipur.html">Manipur</a></td>
+                    <td><a href="manipurtribes.html">Kuki</a></td>
+                </tr>
+                <tr>
+                    <td><a href="meghalaya.html">Meghalaya</a> </td>
+                    <td><a href="meghalayatribes.html">Khasi</a></td>
+                </tr>
+                <tr>
+                    <td><a href="mizoram.html">Mizoram</a></td>
+                    <td><a href="mizoramtribe.html">Mizo</a></td>
+                </tr>
+                <tr>
+                    <td><a href="nagaland.html">Nagaland</a></td>
+                    <td><a href="nagalandtribes.html">Konyak</a></td>
+                </tr>
+                <tr>
+                    <td><a href="odisha.html">Odisha</a></td>
+                    <td><a href="odishatribes.html">Sauras</a></td>
+                </tr>
+                <tr>
+                    <td><a href="punjab.html">Punjab</a></td>
+                    <td><a href="punjabtribe.html">Bhil</a></td>
+                </tr>
+                <tr>
+                    <td><a href="rajasthan.html">Rajasthan</a></td>
+                    <td><a href="rajasthantribes.html">Bhill</a></td>
+                </tr>
+                <tr>
+                    <td><a href="sikkim.html">Sikkim</a></td>
+                    <td><a href="sikkimtribe.html">Bhutia</a></td>
+                </tr>
+                <tr>
+                    <td><a href="tamilnadu.html">Tamil Nadu</a></td>
+                    <td><a href="tamilnadutribes.html">Kota</a></td>
+                </tr>
+                <tr>
+                    <td><a href="telangana.html">Telangana</a></td>
+                    <td><a href="telanganatribe.html">Gond</a></td>
+                </tr> 
+                <tr>
+                    <td><a href="tripura.html">Tripura</a></td>
+                    <td><a href="tripuratribes.html">Reang</a></td>
+                </tr>
+                <tr>
+                    <td><a href="uttarpradesh.html">Uttar Pradesh</a></td>
+                    <td><a href="uttarapradeshtribe.html">Jaunsari</a></td>
+                </tr>
+                <tr>
+                    <td><a href="uttarakhand.html">Uttarakhand</a></td>
+                    <td><a href="uttarakhandtribe.html">Tharu</a></td>
+                </tr>
+                <tr>
+                    <td><a href="westbengal.html">West Bengal</a></td>
+                    <td><a href="westbengaltribe.html">Chakma</a></td>
+                </tr>
+
+            </table>  <div class="matter">
+    
+    <button class="collapsible">  <h4 style="text-decoration: dashed;font-weight: 600; font-size: 23px;">The Bhutia Tribe: A Deeper Dive</h4></button>
+    <div class="content">
+        <p class="para">
+            The Bhutia tribe, also known as Bhotia, is an indigenous ethnic group primarily found in the Himalayan regions of Bhutan, Sikkim, Nepal, and Tibet. They trace their origins to the Tibetan plateau and migrated southward over centuries, settling in various parts of the eastern Himalayas. The Bhutia people have a rich cultural heritage deeply influenced by Tibetan Buddhism, which permeates all aspects of their lives, including art, architecture, and social customs. Traditionally, they have been engaged in agriculture, animal husbandry, trade, and craftsmanship, with yak herding being a significant occupation. The Bhutia community is known for its colorful festivals, intricate handicrafts such as weaving and thangka painting, and distinctive architecture seen in monasteries and traditional homes. Despite facing challenges such as socio-economic marginalization and environmental changes, the Bhutia tribe continues to preserve its cultural identity and traditions while adapting to the modern world.
+        </p>
+    </div>
+    <button class="collapsible">
+    <h4 style="font-size: 23px;font-weight:600">Origins and Distribution:<hr></h4></button>
+    <div class="content">
+        <p class="para"></p>
+        The Bhutia tribe, also known as Bhotia, traces its origins to the Tibetan plateau, where they were originally nomadic herders. They migrated southward into the eastern Himalayan region, including present-day Bhutan, Sikkim, and parts of Nepal and Tibet, over many centuries. The Bhutia people have a distinct cultural identity, influenced by Tibetan Buddhism, which plays a central role in their way of life. Traditionally, they have been engaged in a variety of occupations such as agriculture, animal husbandry, trade, and craftsmanship. In Bhutan, the Bhutia tribe is one of the major ethnic groups, with significant populations residing in regions such as Paro, Thimphu, and Bumthang. In Sikkim, India, the Bhutia community forms a substantial portion of the population, particularly in areas like Gangtok, Namchi, and Ravangla. They also have a presence in other Himalayan regions such as Darjeeling and Kalimpong in West Bengal, and certain parts of Arunachal Pradesh and Nepal. Despite their dispersal across different territories, the Bhutia people maintain a strong sense of cultural unity and identity, characterized by their language, traditional practices, religious beliefs, and social customs. The tribe has faced challenges such as socio-economic marginalization, cultural assimilation, and environmental changes, but they continue to preserve and celebrate their unique heritage and traditions. Efforts to strengthen Bhutia cultural identity and promote socio-economic development within the community are ongoing, both at the local and national levels.</p><h4 style="font-size: 23px;font-weight: 600;"></div>
+           <button class="collapsible"> <h4>Language and Art:
+        </h4></button>
+        <div class="content">
+   <ul><li><p class="para">The Bhutia people primarily speak Sikkimese Bhutia, also known as Bhotia or Lepcha-Bhutia, which belongs to the Tibeto-Burman language family. Sikkimese Bhutia is widely spoken in the Indian state of Sikkim and neighboring regions in the Himalayas. It is an important part of Bhutia cultural identity and is used for communication within the community. </li></p>
+        <li><p class="para">
+            The art of the Bhutia people encompasses a wide range of traditional practices, reflecting their rich cultural heritage and deep spiritual beliefs. Bhutia artisans are skilled in various crafts such as weaving, woodcarving, metalwork, and thangka painting. Thangka painting, in particular, is a highly intricate and spiritual art form, involving the creation of detailed religious paintings on cloth or paper. These paintings often depict Buddhist deities, religious symbols, and scenes from Tibetan Buddhist scriptures, serving as objects of devotion and meditation for the Bhutia community. Additionally, Bhutia architecture is characterized by intricately decorated monasteries and stupas, which serve as centers of religious and cultural life for the community.
+        </li></p></ul></div>
+        <button class="collapsible">
+    <h4 style="font-size: 24px;font-weight: 600;">Festivals<hr></h4></button>
+    <div class="content">
+         <p>Some of their major festivals include:</p>
+         The Bhutia tribe celebrates several festivals throughout the year, which are deeply ingrained in their cultural traditions and social fabric:
+    <h5 style="font-size: 24px;">1.Losar festival</h5>
+                <div class="image"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/
+        <p style="text-decoration: underline; font-weight: 600;">Losar  <p style="text-decoration: underline; font-weight: 600;"></p>
+            <p class="para">Losar is a significant festival celebrated by the Bhutia tribe, marking the Tibetan New Year. It is observed with great enthusiasm and cultural fervor in Bhutan, Sikkim, Tibet, and other regions where Bhutia communities reside. The festival typically falls in February or March, depending on the lunar calendar, and lasts for several days. Losar is characterized by elaborate rituals, prayers, feasting, and traditional performances, including folk dances and music. Families come together to clean their homes, make offerings to deities, and share special meals, symbolizing the renewal of life and the welcoming of a prosperous new year. Losar is not only a time for joyous celebration but also for reflecting on the past year, expressing gratitude, and setting intentions for the year ahead. <p style="text-decoration: underline; font-weight: 600;"></p>
+        </p>
+    <h5 style="font-size: 24px;">2.Saga Dawa festival</h5>
+                <div class="image"><img src="data:image/jpeg;base64,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"></div>
+                    </div>
+                    </div>
+                    </div>
+                    
+                    <script>
+                        // Get all elements with class "collapsible"
+                        var coll = document.getElementsByClassName("collapsible");
+                        
+                        // Loop through each collapsible element
+                        for (var i = 0; i < coll.length; i++) {
+                          // Add click event listener to toggle visibility of content
+                          coll[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var content = this.nextElementSibling;
+                            if (content.style.display === "block") {
+                              content.style.display = "none";
+                            } else {
+                              content.style.display = "block";
+                            }
+                          });
+                        }
+                        </script>
+                        </body>
+                    </html>
+                    
+        
