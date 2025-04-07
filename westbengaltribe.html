@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIBES OF WEST BENGAL</title>
+    <link rel="stylesheet" href="tribe.css">
+    <style>
+        /* Style the button that toggles the visibility of the content */
+        .collapsible {
+          background-color: #eee;
+          color: #444;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 18px;
+        }
+        
+        /* Style the content inside the collapsible */
+        .content {
+          padding: 0 18px;
+          display: none;
+          overflow: hidden;
+          background-color: #f9f9f9;
+        }
+        
+        /* Change the style of the button when active (content is visible) */
+        .active, .collapsible:hover {
+          background-color: #ccc;
+        }
+        </style>
+
+</head>
+
+<style>
+     body {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: #2c3e50;
+        padding: 10px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav a {
+        color: black;
+        text-decoration: none;
+        margin: 0 15px;
+        transition: color 0.3s; 
+    }
+
+    nav a:hover {
+        color: black; 
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+    }
+
+    label {
+        margin-right: 10px;
+    }
+
+    input { padding: 5px;
+        border: 1px solid #ccc;
+        transition: border-color 0.3s; 
+    }
+
+    input:hover {
+        border-color: #4CAF50; 
+    }
+
+    button {
+        padding: 5px 10px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s; 
+    }
+
+    button:hover {
+        background-color: #2c3e50; 
+    }
+</style>
+<body>
+    <nav>
+        <div>
+            <a href="homepage.html" class="nav-link">Home</a>
+            <a href="index.html" class="nav-link">Map</a>
+            <a href="about.html" class="nav-link">About</a>  
+            <a href="bot1.html" >
+                <button id="ask-me-button" onclick="redirectToAskMePage()">Ask Me</button>
+              </a>
+        </div>
+        <form onsubmit="searchFunction(); return false;" action="#" method="get" id="searchform">
+            <input type="text" id="search" name="q" placeholder="Enter your search query">
+            <button type="submit">🔍</button>
+        </form>
+    </nav>
+    <body><button id="prevButton" class="round-button">&#8592;</button>
+        <script>
+            document.getElementById('prevButton').addEventListener('click', function() {
+                window.location.href = 'westbengal.html';
+            });
+        </script>
+        </body>
+    <div class="head"><h1  style="font-size: 40px;">The Chakma-a closer look </h1></div>
+            <div> <span class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7S1rQEW0eNjiztbhHHDqwa5t68XrDwJncMA&usqp=CAU" height="250px" width="450px" HSPACE="350px" ></span></div>
+            <table border="1" ALIGN="rIght">
+                <tr>
+                    <th>States</th>
+                    <th>Tribes</th>
+                </tr>
+                <tr>
+                    <td><a href="andhrapradesh.html"> Andhra pradesh</a></td>
+                    <td><a href="andhratribes.html"> Yerukulas</a></td>
+        
+                </tr>
+                <tr>
+                    <td><a href="arunachalpradesh.html">Arunachalpradesh</a>    </td>
+                    <td><a href="arunachalpradeshtribes.html">ADI</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="assam.html">Assam</a> </td>
+                    <td><a href="sikkimtribe.html">Bhutia</a></td>
+                </tr>
+                <tr>
+                    <td><a href="bihar.html">Bihar</a> </td>
+                    <td><a href="bihartribe.html">Kharia</a> </td>
+        
+                </tr>
+                <tr>
+                    <td><a href="chattisgarh.html">Chattisgarh</a> </td>
+                    <td><a href="chattisgarhtribes.html">Pahari korwa</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="goa.html">Goa</a> </td>
+                    <td><a href="goatribe.html">Warli</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="gujarat.html">Gujarat</a></td>
+                    <td><a href="gujarattribe.html">Dhodia</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="haryana.html">Haryana</a> </td>
+                    <td><a href="haryanatribe.html">Gujjar</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="himachal.html">Himachal Pradesh</a> </td>
+                    <td><a href="rajasthantribes.html">Bhil</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="jammu.html">Jammu and Kashmir</a> </td>
+                    <td><a href="jammutribe.html">Bakarwal</a> </td>
+                </tr>
+                 <tr>
+                    <td><a href="jharkhand.html">Jharkhand</a> </td>
+                    <td><a href="jharkhandtribe.html">Santhal</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="karnataka.html">Karnataka</a> </td>
+                    <td><a href="karnatakatribes.html">Kabu Kuruba</a>  </td>
+                </tr>
+                <tr>
+                    <td><a href="kerala.html">Kerala</a> </td>
+                    <td><a  href="keralatribes.html">PANIYAN</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="madyapradesh.html">Madhya Pradesh</a> </td>
+                    <td><a href="madyapradeshtribe.html">Bhaigas</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="maharashtra.html">Mahrashtra</a></td>
+                    <td><a href="maharashtratribe.html">Warlis</a></td>
+                </tr>
+                <tr>
+                    <td><a href="manipur.html">Manipur</a></td>
+                    <td><a href="manipurtribes.html">Kuki</a></td>
+                </tr>
+                <tr>
+                    <td><a href="meghalaya.html">Meghalaya</a> </td>
+                    <td><a href="meghalayatribes.html">Khasi</a></td>
+                </tr>
+                <tr>
+                    <td><a href="mizoram.html">Mizoram</a></td>
+                    <td><a href="mizoramtribe.html">Mizo</a></td>
+                </tr>
+                <tr>
+                    <td><a href="nagaland.html">Nagaland</a></td>
+                    <td><a href="nagalandtribes.html">Konyak</a></td>
+                </tr>
+                <tr>
+                    <td><a href="odisha.html">Odisha</a></td>
+                    <td><a href="odishatribes.html">Sauras</a></td>
+                </tr>
+                <tr>
+                    <td><a href="punjab.html">Punjab</a></td>
+                    <td><a href="punjabtribe.html">Bhil</a></td>
+                </tr>
+                <tr>
+                    <td><a href="rajasthan.html">Rajasthan</a></td>
+                    <td><a href="rajasthantribes.html">Bhill</a></td>
+                </tr>
+                <tr>
+                    <td><a href="sikkim.html">Sikkim</a></td>
+                    <td><a href="sikkimtribe.html">Bhutia</a></td>
+                </tr>
+                <tr>
+                    <td><a href="tamilnadu.html">Tamil Nadu</a></td>
+                    <td><a href="tamilnadutribes.html">Kota</a></td>
+                </tr>
+                <tr>
+                    <td><a href="telangana.html">Telangana</a></td>
+                    <td><a href="telanganatribe.html">Gond</a></td>
+                </tr> 
+                <tr>
+                    <td><a href="tripura.html">Tripura</a></td>
+                    <td><a href="tripuratribes.html">Reang</a></td>
+                </tr>
+                <tr>
+                    <td><a href="uttarpradesh.html">Uttar Pradesh</a></td>
+                    <td><a href="uttarapradeshtribe.html">Jaunsari</a></td>
+                </tr>
+                <tr>
+                    <td><a href="uttarakhand.html">Uttarakhand</a></td>
+                    <td><a href="uttarakhandtribe.html">Tharu</a></td>
+                </tr>
+                <tr>
+                    <td><a href="westbengal.html">West Bengal</a></td>
+                    <td><a href="westbengaltribe.html">Chakma</a></td>
+                </tr>
+
+            </table>  <div class="matter">
+    
+    <h4 style="text-decoration: dashed;font-weight: 600; font-size: 23px;">The Chakma Tribe: A Deeper Dive</h4>
+        <p class="para">Chakma oral history says they migrated to Arakan from the ancient kingdom of Magadha in the present Bihar state of India. The Chakma believe they are part of Buddha's Sakya clan of the Himalayan tribes. They gradually migrated to Arakan and extended their territory to the nearby hills of the Chittagong Hill Tracts.
+            The Arakanese people referred to the Chakmas as Saks, Theks, or Thaikhs. In 1546 CE, while the Arakanese king Min Bin was fighting a battle with the Burmese, the Sak king attacked Northern Arakan Roma and occupied the Arakanese-controlled Chacomas of the Northern Arakan Mountains.
+                                </p>
+    <h4 style="font-size: 23px;font-weight:600">Origins and Distribution:<hr></h4>
+    
+        <p class="para" ></p>
+        Significant Chakma populations are found in the northeast Indian states of Arunachal Pradesh, Tripura, Assam,Telangana, Andhra Pradesh, Chhattisgarh, and Odisha.Subdivided into various subgroups, each with distinct customs, dialects, and traditions.</p><h4 style="font-size: 23px;font-weight: 600;"> <button class="collapsible">
+            <h4 style="font-size: 23px;font-weight:600">Language and Art:<hr>
+        </h4></button> <div class="content">
+   <ul><li><p class="para">Chakma: Their native language, belonging to the Tibeto-Burman family, is spoken by around 380,000 people.</li></p>
+        <li><p class="para">The art of finest weaving is not something that can be acquired by academic knowledge rather depends on inherited skill. The process of cloth making of Chakma communities consists of several steps, such as groundwork of Chakma cloth weaving, dyeing, yarn processing, loom preparation, and weaving.
+
+        </li></p></ul></div> <button class="collapsible">
+    <h4 style="font-size: 24px;font-weight: 600;">Festivals<hr></h4></button> <div class="content">
+         <p>Some of their major festivals include:</p>
+    <h5 style="font-size: 24px;">1.Bizu festival</h5>
+        <p style="text-decoration: underline; font-weight: 600;">Bizu  <p style="text-decoration: underline; font-weight: 600;"></p>
+            <p class="para">>Bizu is the most important socio-religious festival of the Chakma.Bizu is a Buddhist festival and public holiday in Tripura. This festival gave birth to the Bizu dance. The festival lasts for three days and begins one day before the last day of the month of Chaitra, falling in the month of April. <p style="text-decoration: underline; font-weight: 600;"></p>
+        </p>
+       <p style="text-decoration: underline; font-weight: 600;">Buddha purnima</p>
+            <p class="para"> It is celebrated on the full moon day in the month of Vaisakha.It encompasses the birth, enlightenment (nirvāna), and passing away (Parinirvāna) of Buddha. On the day of the worship, devotees go to the monastery with Shíyong or Qi Yawng (offerings of rice, vegetable and other fruits and confectioneries). The Buddhist monks known as Bhante lead the devotees for the chanting of verses composed in Pali.</p></div>
+            <button class="collapsible">
+        <h4 style="text-decoration: dashed;font-size: 24px;font-weight: 600;">Livelihood and Challenges:</h4>
+    <hr></button>
+<div class="content">
+            <p class="para">The Chakma tribe, primarily residing in the Chittagong Hill Tracts, Bangladesh, sustains their livelihood through agriculture, handicrafts, fishing, and livestock rearing. However, they face persistent challenges such as land rights disputes, socio-economic marginalization, and struggles in preserving their cultural identity amidst modernization. Limited access to education and healthcare further exacerbates their socio-economic plight. Additionally, environmental degradation poses a threat to their traditional livelihoods, particularly in regions where shifting cultivation is practiced. Addressing these challenges requires concerted efforts to secure land rights, promote cultural preservation, improve access to essential services, and foster sustainable development initiatives.</p></div>
+            <button class="collapsible">
+<h5 style="font-size: 24px;font-weight: 600;">Painting of Chakma</h5></button>
+<div class="content">
+<div class="row" style="border: none;">
+    <div class="column">
+      </div><div class="column">
+      <img src="https://i.pinimg.com/736x/5a/46/a5/5a46a5a34c4243826776d36ef3e32bc8.jpg" alt="Forest" style="width:100%"></div>
+    <div class="column">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn8QPgyzWRoZOn9Bg3jp6XMjTdUElHR6UoxA&usqp=CAU" alt="Mountains" style="width:100%"> </div>
+    <ul>
+        <li>Chakma paintings are known for their vivid colors and expressive style, often used to depict stories, myths, and legends passed down through generations..</li>
+        <li>Paints were made from natural elements like charcoal, clay, and vegetable dyes, applied on cloth or handmade paper.</li>
+        <li>Paintings often served religious purposes, adorning altars or depicting scenes from Buddhist scriptures and folklore.</li>
+        <li>Geometric patterns and symbols play a crucial role, representing elements like the sun, moon, mountains, and rivers, holding cultural significance.</li>
+        </ul></div></div> <button class="collapsible">
+<h5 style="text-decoration: dashed; font-weight: 600; font-size: 23px;">Challenges faced by Chakma tribes:</h5> </button>
+<div class="content">
+            <p class="para" >The Chakma's face numerous challenges that impact their social, economic, and cultural well-being. These challenges include land rights issues and displacement, leading to the disruption of their traditional way of life and livelihoods.</p>
+    <ol>
+        <li style="text-decoration: dashed; font-weight: 600;">Displacement and Land Dispossession:</li>
+            <p class="para">Construction of the Kaptai Dam in Bangladesh displaced thousands of Chakmas from ancestral lands.
+                Development projects continue to threaten their land and livelihood.
+                In India, some Chakmas remain classified as refugees, impacting their rights and access to resources.</p>
+       <li style="text-decoration: dashed;font-weight: 600;">Human Rights Abuses:</li>
+            <p class="para">Reports of arbitrary arrests, torture, and extrajudicial killings by security forces have been documented.
+                Restrictions on freedom of movement and expression are often placed on Chakma communities.</p>
+        <li style="text-decoration: dashed; font-weight: 600;">Discrimination and Marginalization:</li>
+            <p class="para">The Chakmas often face discrimination based on their ethnicity and religious beliefs.
+                Political tensions and conflicts further marginalize their communities.</p>
+    </ol>
+</div>
+</div></div>
+<script>
+    // Get all elements with class "collapsible"
+    var coll = document.getElementsByClassName("collapsible");
+    
+    // Loop through each collapsible element
+    for (var i = 0; i < coll.length; i++) {
+      // Add click event listener to toggle visibility of content
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+    <footer>
+        h5 style="margin-bottom: 0;">Remember:</h5>
+        <p class="para" style="margin-top: 5px;">This is just a glimpse into the vast and diverse world of the Chakma tribe. Each subgroup has unique characteristics and deserves individual exploration.
+        Respecting their identity, cultural values, and traditional knowledge is crucial for their continued survival and flourishing.
+        Supporting initiatives that empower them and preserve their heritage is essential to ensure their rich legacy continues to inspire future generations.</p>
+       
+    </p>
+    </footer>
+
+    
+</body>
+</html>
